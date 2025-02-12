@@ -1,0 +1,25 @@
+CREATE TABLE `booking`
+(
+    `id`              bigint NOT NULL AUTO_INCREMENT,
+    `created_by`      varchar(255) DEFAULT NULL,
+    `created_date`    datetime(6) DEFAULT NULL,
+    `modified_by`     varchar(255) DEFAULT NULL,
+    `modified_date`   datetime(6) DEFAULT NULL,
+    `booked_type`     enum('DLX','SIG_SUITE','SUITE','SUP') DEFAULT NULL,
+    `bookinguid`      varchar(255) DEFAULT NULL,
+    `check_in_date`   datetime(6) NOT NULL,
+    `check_out_date`  datetime(6) NOT NULL,
+    `deleted`         bit(1)       DEFAULT NULL,
+    `exchange_rate`   double       DEFAULT NULL,
+    `has_breakfast`   bit(1)       DEFAULT NULL,
+    `note`            varchar(255) DEFAULT NULL,
+    `number_of_child` smallint     DEFAULT NULL,
+    `status`          enum('CANCELED','CHECKED_IN','CHECKED_OUT','EXPECTED','NO_SHOW') DEFAULT NULL,
+    `room_id`         bigint       DEFAULT NULL,
+    `company_id`      bigint       DEFAULT NULL,
+    PRIMARY KEY (`id`),
+    KEY               `FKq83pan5xy2a6rn0qsl9bckqai` (`room_id`),
+    KEY               `FKf3j78d5ejmy4ni9pujrc1pjcw` (`company_id`),
+    CONSTRAINT `FKf3j78d5ejmy4ni9pujrc1pjcw` FOREIGN KEY (`company_id`) REFERENCES `company` (`id`),
+    CONSTRAINT `FKq83pan5xy2a6rn0qsl9bckqai` FOREIGN KEY (`room_id`) REFERENCES `room` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

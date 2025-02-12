@@ -1,0 +1,25 @@
+CREATE TABLE `guest`
+(
+    `id`                    bigint       NOT NULL AUTO_INCREMENT,
+    `created_by`            varchar(255) DEFAULT NULL,
+    `created_date`          datetime(6) DEFAULT NULL,
+    `modified_by`           varchar(255) DEFAULT NULL,
+    `modified_date`         datetime(6) DEFAULT NULL,
+    `arrival_date`          datetime(6) DEFAULT NULL,
+    `arrived_at`            varchar(255) DEFAULT NULL,
+    `birthday`              datetime(6) NOT NULL,
+    `deleted`               bit(1)       DEFAULT NULL,
+    `departure_date`        datetime(6) DEFAULT NULL,
+    `email`                 varchar(255) DEFAULT NULL,
+    `first_name`            varchar(255) NOT NULL,
+    `guest_arrival_status`  enum('CANCELED','CHECKED_IN','CHECKED_OUT','EXPECTED','NO_SHOW') NOT NULL,
+    `id_number`             varchar(255) NOT NULL,
+    `last_name`             varchar(255) NOT NULL,
+    `nationality`           varchar(255) NOT NULL,
+    `note`                  varchar(255) DEFAULT NULL,
+    `passport_expired_date` datetime(6) DEFAULT NULL,
+    `passport_number`       varchar(255) NOT NULL,
+    `phone`                 varchar(255) DEFAULT NULL,
+    `title`                 enum('CHILD','MR','MRS','MS') DEFAULT NULL,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

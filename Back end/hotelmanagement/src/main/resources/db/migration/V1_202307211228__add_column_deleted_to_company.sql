@@ -1,0 +1,2 @@
+ALTER TABLE company
+ADD deleted BIT NOT NULL DEFAULT 0;
