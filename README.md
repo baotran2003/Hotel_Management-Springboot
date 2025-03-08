@@ -4,25 +4,25 @@ A comprehensive Hotel Management System developed using Spring Boot, designed to
 
 ## Features
 
-- **Room Management**: Add, update, and remove room details, including room types, availability, and pricing.&#8203;:contentReference[oaicite:0]{index=0}
-- **Booking System**: :contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
-- **Customer Management**: :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
-- **Billing and Payments**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
-- **Reporting**: :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
+- **Room Management**: Add, update, and remove room details, including room types, availability, and pricing.
+- **Booking System**: Handle reservations, check-ins, and check-outs efficiently.
+- **Customer Management**: Maintain customer profiles and track their booking history.
+- **Billing and Payments**: Generate invoices and process payments securely.
+- **Reporting**: Generate reports on occupancy rates, revenue, and other key metrics.
 
 ## Technologies Used
 
-- **Backend**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
-- **Database**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
-- **Security**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
-- **Documentation**: :contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
+- **Backend**: Spring Boot, Spring Data JPA
+- **Database**: H2 (for development), MySQL/PostgreSQL (for production)
+- **Security**: Spring Security, JWT Authentication
+- **Documentation**: Swagger2 for API documentation
 
 ## Getting Started
 
 ### Prerequisites
 
-- :contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
-- :contentReference[oaicite:19]{index=19}&#8203;:contentReference[oaicite:20]{index=20}
+- Java Development Kit (JDK) 8 or higher
+- Maven 3.x
 
 ### Installation
 
