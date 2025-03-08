@@ -1,33 +1,32 @@
-# Hotel Management System (Backend)
+# Hotel Management System
 
-## Overview
-The Hotel Management System is a backend application developed using **Spring Boot** to facilitate the management of hotel operations. This project focuses on building RESTful APIs to handle functionalities such as room management, booking management, customer information, and related services. It serves as the backend component, designed for efficiency and seamless integration with a frontend.
+A comprehensive Hotel Management System developed using Spring Boot, designed to streamline hotel operations, manage bookings, and enhance customer satisfaction.
 
-## Key Features
-- **Room Management**: Add, update, delete room details and check room availability (occupied/vacant).
-- **Booking Management**: Process booking requests, cancellations, and track booking history.
-- **Customer Management**: Store and manage customer information.
-- **RESTful APIs**: Provide endpoints for communication with frontend or other applications.
-- **Authentication & Authorization**: Ensure security through user authentication (if implemented).
+## Features
+
+- **Room Management**: Add, update, and remove room details, including room types, availability, and pricing.&#8203;:contentReference[oaicite:0]{index=0}
+- **Booking System**: :contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
+- **Customer Management**: :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
+- **Billing and Payments**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
+- **Reporting**: :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
 
 ## Technologies Used
-- **Java**: Core programming language.
-- **Spring Boot**: Main framework for backend development.
-- **Spring Data JPA**: Database management.
-- **MySQL/PostgreSQL**: Database (configurable).
-- **Maven**: Dependency and build management.
-- **Lombok**: Reduce boilerplate code.
 
-## Setup and Installation
+- **Backend**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
+- **Database**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
+- **Security**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
+- **Documentation**: :contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
+
+## Getting Started
 
 ### Prerequisites
-- JDK 11 or higher
-- Maven 3.6+
-- MySQL/PostgreSQL (configured in `application.properties`)
-- IDE like IntelliJ IDEA or Eclipse (recommended)
 
-### Installation Steps
-1. **Clone the Repository**:
+- :contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
+- :contentReference[oaicite:19]{index=19}&#8203;:contentReference[oaicite:20]{index=20}
+
+### Installation
+
+1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/baotran2003/Hotel_Management-Springboot.git
-   cd Hotel_Management-Springboot/Back\ end/hotelmanagement
