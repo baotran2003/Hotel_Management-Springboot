@@ -1,32 +1,33 @@
-# Hotel Management System
+# Hotel Management System (Backend)
 
-A comprehensive Hotel Management System developed using Spring Boot, designed to streamline hotel operations, manage bookings, and enhance customer satisfaction.
+## Overview
+The Hotel Management System is a backend application developed using **Spring Boot** to facilitate the management of hotel operations. This project focuses on building RESTful APIs to handle functionalities such as room management, booking management, customer information, and related services. It serves as the backend component, designed for efficiency and seamless integration with a frontend.
 
-## Features
-
-- **Room Management**: Add, update, and remove room details, including room types, availability, and pricing.
-- **Booking System**: Handle reservations, check-ins, and check-outs efficiently.
-- **Customer Management**: Maintain customer profiles and track their booking history.
-- **Billing and Payments**: Generate invoices and process payments securely.
-- **Reporting**: Generate reports on occupancy rates, revenue, and other key metrics.
+## Key Features
+- **Room Management**: Add, update, delete room details and check room availability (occupied/vacant).
+- **Booking Management**: Process booking requests, cancellations, and track booking history.
+- **Customer Management**: Store and manage customer information.
+- **RESTful APIs**: Provide endpoints for communication with frontend or other applications.
+- **Authentication & Authorization**: Ensure security through user authentication (if implemented).
 
 ## Technologies Used
+- **Java**: Core programming language.
+- **Spring Boot**: Main framework for backend development.
+- **Spring Data JPA**: Database management.
+- **MySQL/PostgreSQL**: Database (configurable).
+- **Maven**: Dependency and build management.
+- **Lombok**: Reduce boilerplate code.
 
-- **Backend**: Spring Boot, Spring Data JPA
-- **Database**: H2 (for development), MySQL/PostgreSQL (for production)
-- **Security**: Spring Security, JWT Authentication
-- **Documentation**: Swagger2 for API documentation
-
-## Getting Started
+## Setup and Installation
 
 ### Prerequisites
+- JDK 11 or higher
+- Maven 3.6+
+- MySQL/PostgreSQL (configured in `application.properties`)
+- IDE like IntelliJ IDEA or Eclipse (recommended)
 
-- Java Development Kit (JDK) 8 or higher
-- Maven 3.x
-
-### Installation
-
-1. **Clone the repository**:
-
+### Installation Steps
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/baotran2003/Hotel_Management-Springboot.git
+   cd Hotel_Management-Springboot/Back\ end/hotelmanagement
